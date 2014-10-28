@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox fx:id="hbox" alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.eniac.ui.ctrl.BasePaneButtonsCtrl">
+   <children>
+      <Button minWidth="10.0" mnemonicParsing="false" text="新增" />
+      <Button minWidth="10.0" mnemonicParsing="false" text="修改" />
+      <Button minWidth="10.0" mnemonicParsing="false" text="删除" />
+      <Button minWidth="10.0" mnemonicParsing="false" text="刷新" />
+   </children>
+   <padding>
+      <Insets left="10.0" />
+   </padding>
+</HBox>

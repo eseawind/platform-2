@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Label fx:id="label" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="40.0" prefWidth="180.0" text="分组标签" textAlignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.eniac.ui.ctrl.BasePaneNavChildMenuGroupCtrl">
+   <font>
+      <Font name="Arial Bold" size="20.0" />
+   </font>
+   <padding>
+      <Insets left="10.0" right="10.0" />
+   </padding>
+</Label>

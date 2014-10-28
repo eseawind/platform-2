@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<ScrollPane fx:id="scrollpane" fitToHeight="true" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.eniac.ui.ctrl.BasePaneTableCtrl">
+	<content>
+		<TableView fx:id="tableview" layoutY="-2.0">
+			<columns>
+				<TableColumn prefWidth="75.0" text="主键" />
+				<TableColumn prefWidth="75.0" text="编码" />
+				<TableColumn prefWidth="75.0" text="名称" />
+				<TableColumn prefWidth="75.0" text="集团" />
+				<TableColumn prefWidth="75.0" text="组织" />
+				<TableColumn prefWidth="75.0" text="组织版本" />
+				<TableColumn prefWidth="75.0" text="封存标记" />
+				<TableColumn prefWidth="75.0" text="封存时间" />
+				<TableColumn prefWidth="75.0" text="启用标记" />
+				<TableColumn prefWidth="75.0" text="内部编码" />
+				<TableColumn prefWidth="75.0" text="简称" />
+				<TableColumn prefWidth="75.0" text="创建人" />
+				<TableColumn prefWidth="75.0" text="创建时间" />
+				<TableColumn prefWidth="75.0" text="修改人" />
+				<TableColumn prefWidth="75.0" text="修改时间" />
+				<TableColumn prefWidth="75.0" text="备注" />
+				<TableColumn prefWidth="75.0" text="自定义项1" />
+				<TableColumn prefWidth="75.0" text="自定义项2" />
+				<TableColumn prefWidth="75.0" text="自定义项3" />
+				<TableColumn prefWidth="75.0" text="自定义项4" />
+				<TableColumn prefWidth="75.0" text="自定义项5" />
+				<TableColumn prefWidth="75.0" text="自定义项6" />
+				<TableColumn prefWidth="75.0" text="自定义项7" />
+				<TableColumn prefWidth="75.0" text="自定义项8" />
+				<TableColumn prefWidth="75.0" text="自定义项9" />
+				<TableColumn prefWidth="75.0" text="自定义项10" />
+				<TableColumn prefWidth="75.0" text="自定义项11" />
+				<TableColumn prefWidth="75.0" text="自定义项12" />
+				<TableColumn prefWidth="75.0" text="自定义项13" />
+				<TableColumn prefWidth="75.0" text="自定义项14" />
+				<TableColumn prefWidth="75.0" text="自定义项15" />
+				<TableColumn prefWidth="75.0" text="自定义项16" />
+				<TableColumn prefWidth="75.0" text="自定义项17" />
+				<TableColumn prefWidth="75.0" text="自定义项18" />
+				<TableColumn prefWidth="75.0" text="自定义项19" />
+				<TableColumn prefWidth="75.0" text="自定义项20" />
+			</columns>
+		</TableView>
+	</content>
+</ScrollPane>

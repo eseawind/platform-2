@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.eniac.ui.ctrl.BasePaneMainCtrl">
+   <top>
+      <HBox fx:id="pane_top" alignment="CENTER_RIGHT" prefHeight="56.0" prefWidth="600.0" style="-fx-background-color: #91CBE9;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="txt_searchkey" promptText="%searchkeyword" />
+         </children>
+         <padding>
+            <Insets right="50.0" />
+         </padding>
+      </HBox>
+   </top>
+   <left>
+      <VBox fx:id="pane_navchildmenu" alignment="TOP_CENTER" prefHeight="340.0" prefWidth="222.0" spacing="5.0" style="-fx-background-color: #E5F5FA;" BorderPane.alignment="TOP_RIGHT">
+         <padding>
+            <Insets bottom="10.0" top="10.0" />
+         </padding>
+      </VBox>
+   </left>
+   <bottom>
+      <HBox fx:id="pane_bottom" alignment="CENTER_RIGHT" prefHeight="24.0" prefWidth="600.0" style="-fx-background-color: #91CBE9;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="lbl_logindate" alignment="CENTER" maxWidth="100.0" prefHeight="15.0" prefWidth="100.0" text="2014-08-20">
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+            </Label>
+            <Separator orientation="VERTICAL" prefHeight="10.0" prefWidth="6.0" />
+            <Label fx:id="lbl_loginorg" alignment="CENTER" maxWidth="100.0" prefHeight="15.0" prefWidth="100.0" text="测试集团">
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+            </Label>
+            <Label fx:id="lbl_loginorg1" alignment="CENTER" maxWidth="100.0" prefHeight="15.0" prefWidth="100.0" text="测试组织">
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+            </Label>
+            <Label fx:id="lbl_loginaccount" alignment="CENTER" maxWidth="100.0" prefHeight="15.0" prefWidth="100.0" text="Dobbie">
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding></Label>
+            <Separator orientation="VERTICAL" prefHeight="10.0" prefWidth="6.0" />
+            <ComboBox fx:id="cbo_loginaccountmenu" maxWidth="20.0" prefHeight="23.0" prefWidth="20.0">
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+            </ComboBox>
+            <Separator orientation="VERTICAL" prefHeight="10.0" prefWidth="6.0">
+               <HBox.margin>
+                  <Insets left="3.0" />
+               </HBox.margin>
+            </Separator>
+            <ComboBox fx:id="cbo_loginhelper" maxWidth="20.0" prefHeight="23.0" prefWidth="20.0">
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+            </ComboBox>
+            <Separator orientation="VERTICAL" prefHeight="10.0" prefWidth="6.0">
+               <HBox.margin>
+                  <Insets left="3.0" />
+               </HBox.margin>
+            </Separator>
+            <ComboBox fx:id="cbo_loginsysset" maxWidth="20.0" prefHeight="23.0" prefWidth="20.0">
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+            </ComboBox>
+         </children>
+         <padding>
+            <Insets right="20.0" />
+         </padding>
+      </HBox>
+   </bottom>
+   <right>
+      <VBox fx:id="pane_right" prefHeight="325.0" prefWidth="221.0" style="-fx-background-color: #EEEEF0;" BorderPane.alignment="CENTER" />
+   </right>
+   <center>
+      <SplitPane dividerPositions="0.9" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane fx:id="pane_content_scroll_parent_top" minHeight="0.0" minWidth="0.0" prefHeight="307.0" prefWidth="155.0">
+               <children>
+                  <ScrollPane fx:id="pane_content_scroll" fitToHeight="true" fitToWidth="true" prefViewportHeight="296.0" prefViewportWidth="155.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <content>
+                        <FlowPane fx:id="pane_navchildmenu_contents" columnHalignment="CENTER" hgap="20.0" layoutX="10.0" layoutY="10.0" onDragDetected="#ondragabc" orientation="VERTICAL" prefHeight="294.0" prefWidth="153.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <padding>
+                              <Insets bottom="20.0" left="30.0" right="30.0" top="20.0" />
+                           </padding>
+                        </FlowPane>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </AnchorPane>
+          <AnchorPane fx:id="pane_content_bottom" minHeight="0.0" minWidth="0.0" prefHeight="89.0" prefWidth="155.0" style="-fx-background-color: #F7FBFF;" />
+        </items>
+      </SplitPane>
+   </center>
+</BorderPane>

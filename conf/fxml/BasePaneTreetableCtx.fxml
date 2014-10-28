@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<ScrollPane prefHeight="382.0" prefWidth="666.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.eniac.ui.ctrl.BasePaneTreetableCtrl">
+   <content>
+      <TreeTableView fx:id="treetableview" minHeight="-Infinity" minWidth="-Infinity">
+        <columns>
+          <TreeTableColumn prefWidth="75.0" text="主键" />
+                  <TreeTableColumn prefWidth="75.0" text="编码" />
+                  <TreeTableColumn prefWidth="75.0" text="名称" />
+                  <TreeTableColumn prefWidth="75.0" text="集团" />
+                  <TreeTableColumn prefWidth="75.0" text="组织" />
+                  <TreeTableColumn prefWidth="75.0" text="组织版本" />
+                  <TreeTableColumn prefWidth="75.0" text="封存标记" />
+                  <TreeTableColumn prefWidth="75.0" text="封存时间" />
+                  <TreeTableColumn prefWidth="75.0" text="启用标记" />
+                  <TreeTableColumn prefWidth="75.0" text="内部编码" />
+                  <TreeTableColumn prefWidth="75.0" text="简称" />
+                  <TreeTableColumn prefWidth="75.0" text="创建人" />
+                  <TreeTableColumn prefWidth="75.0" text="创建时间" />
+                  <TreeTableColumn prefWidth="75.0" text="修改人" />
+                  <TreeTableColumn prefWidth="75.0" text="修改时间" />
+                  <TreeTableColumn prefWidth="75.0" text="备注" />
+                  <TreeTableColumn prefWidth="75.0" text="自定义项1" />
+                  <TreeTableColumn prefWidth="75.0" text="自定义项2" />
+                  <TreeTableColumn prefWidth="75.0" text="自定义项3" />
+                  <TreeTableColumn prefWidth="75.0" text="自定义项4" />
+                  <TreeTableColumn prefWidth="75.0" text="自定义项5" />
+                  <TreeTableColumn prefWidth="75.0" text="自定义项6" />
+                  <TreeTableColumn prefWidth="75.0" text="自定义项7" />
+                  <TreeTableColumn prefWidth="75.0" text="自定义项8" />
+                  <TreeTableColumn prefWidth="75.0" text="自定义项9" />
+                  <TreeTableColumn prefWidth="75.0" text="自定义项10" />
+                  <TreeTableColumn prefWidth="75.0" text="自定义项11" />
+                  <TreeTableColumn prefWidth="75.0" text="自定义项12" />
+                  <TreeTableColumn prefWidth="75.0" text="自定义项13" />
+                  <TreeTableColumn prefWidth="75.0" text="自定义项14" />
+                  <TreeTableColumn prefWidth="75.0" text="自定义项15" />
+                  <TreeTableColumn prefWidth="75.0" text="自定义项16" />
+                  <TreeTableColumn prefWidth="75.0" text="自定义项17" />
+                  <TreeTableColumn prefWidth="75.0" text="自定义项18" />
+                  <TreeTableColumn prefWidth="75.0" text="自定义项19" />
+                  <TreeTableColumn prefWidth="75.0" text="自定义项20" />
+        </columns>
+      </TreeTableView>
+   </content>
+</ScrollPane>

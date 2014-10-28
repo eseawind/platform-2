@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane fx:id="root" fitToHeight="true" fitToWidth="true" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.eniac.ui.ctrl.BasePaneTopFormBottomTableCtrl">
+   <content>
+      <SplitPane fx:id="splitpane" dividerPositions="0.3492462311557789" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <ScrollPane fitToHeight="true" fitToWidth="true" prefViewportHeight="225.0" prefViewportWidth="598.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <content>
+                        <FlowPane fx:id="topformflowpane" hgap="20.0" prefHeight="300.0" prefWidth="487.0" style="-fx-background-color: #fff;" vgap="15.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <padding>
+                              <Insets bottom="20.0" left="30.0" right="30.0" top="20.0" />
+                           </padding>
+                           <children>
+                              <HBox alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0">
+                                 <children>
+                                    <Label maxHeight="-Infinity" prefHeight="40.0" text="测试标签1" />
+                                    <TextField maxHeight="-Infinity" prefHeight="25.0" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </HBox>
+                              <HBox alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0">
+                                 <children>
+                                    <Label maxHeight="-Infinity" prefHeight="40.0" text="测试标签2" />
+                                    <TextField maxHeight="-Infinity" prefHeight="25.0" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </HBox>
+                              <HBox alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0">
+                                 <children>
+                                    <Label maxHeight="-Infinity" prefHeight="40.0" text="测试标签3" />
+                                    <TextField maxHeight="-Infinity" prefHeight="25.0" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </HBox>
+                              <HBox alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0">
+                                 <children>
+                                    <Label maxHeight="-Infinity" prefHeight="40.0" text="测试标签" />
+                                    <TextField maxHeight="-Infinity" prefHeight="25.0" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </HBox>
+                              <HBox alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0">
+                                 <children>
+                                    <Label maxHeight="-Infinity" prefHeight="40.0" text="测试标签" />
+                                    <DatePicker maxHeight="-Infinity" prefHeight="25.0" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </HBox>
+                              <HBox alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0">
+                                 <children>
+                                    <Label maxHeight="-Infinity" prefHeight="40.0" text="测试标签" />
+                                    <TextField maxHeight="-Infinity" prefHeight="25.0" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </HBox>
+                              <HBox alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0">
+                                 <children>
+                                    <Label maxHeight="-Infinity" prefHeight="40.0" text="测试标签">
+                                       <HBox.margin>
+                                          <Insets />
+                                       </HBox.margin>
+                                    </Label>
+                                    <ComboBox maxHeight="-Infinity" prefHeight="25.0" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </HBox>
+                              <HBox alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0">
+                                 <children>
+                                    <RadioButton maxHeight="-Infinity" mnemonicParsing="false" prefHeight="25.0" text="RadioButton" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </HBox>
+                              <HBox alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0">
+                                 <children>
+                                    <CheckBox maxHeight="-Infinity" mnemonicParsing="false" prefHeight="25.0" text="CheckBox" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </HBox>
+                              <HBox alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0">
+                                 <children>
+                                    <Label maxHeight="-Infinity" prefHeight="40.0" text="测试标签" />
+                                    <CheckBox maxHeight="-Infinity" mnemonicParsing="false" prefHeight="25.0" text="CheckBox" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </FlowPane>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <ScrollPane prefViewportHeight="256.0" prefViewportWidth="598.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <content>
+                        <TableView fx:id="bottomtableview" layoutY="-2.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <columns>
+                            <TableColumn prefWidth="75.0" text="主键" />
+                            <TableColumn prefWidth="75.0" text="编码" />
+                              <TableColumn prefWidth="75.0" text="名称" />
+                              <TableColumn prefWidth="75.0" text="集团" />
+                              <TableColumn prefWidth="75.0" text="组织" />
+                              <TableColumn prefWidth="75.0" text="组织版本" />
+                              <TableColumn prefWidth="75.0" text="封存标记" />
+                              <TableColumn prefWidth="75.0" text="封存时间" />
+                              <TableColumn prefWidth="75.0" text="启用标记" />
+                              <TableColumn prefWidth="75.0" text="内部编码" />
+                              <TableColumn prefWidth="75.0" text="简称" />
+                              <TableColumn prefWidth="75.0" text="创建人" />
+                              <TableColumn prefWidth="75.0" text="创建时间" />
+                              <TableColumn prefWidth="75.0" text="修改人" />
+                              <TableColumn prefWidth="75.0" text="修改时间" />
+                              <TableColumn prefWidth="75.0" text="备注" />
+                              <TableColumn prefWidth="75.0" text="自定义项1" />
+            				  <TableColumn prefWidth="75.0" text="自定义项2" />
+            				  <TableColumn prefWidth="75.0" text="自定义项3" />
+            				  <TableColumn prefWidth="75.0" text="自定义项4" />
+            				  <TableColumn prefWidth="75.0" text="自定义项5" />
+            				  <TableColumn prefWidth="75.0" text="自定义项6" />
+            				  <TableColumn prefWidth="75.0" text="自定义项7" />
+            				  <TableColumn prefWidth="75.0" text="自定义项8" />
+            				  <TableColumn prefWidth="75.0" text="自定义项9" />
+            				  <TableColumn prefWidth="75.0" text="自定义项10" />
+            				  <TableColumn prefWidth="75.0" text="自定义项11" />
+            				  <TableColumn prefWidth="75.0" text="自定义项12" />
+            				  <TableColumn prefWidth="75.0" text="自定义项13" />
+            				  <TableColumn prefWidth="75.0" text="自定义项14" />
+            				  <TableColumn prefWidth="75.0" text="自定义项15" />
+            				  <TableColumn prefWidth="75.0" text="自定义项16" />
+            				  <TableColumn prefWidth="75.0" text="自定义项17" />
+            				  <TableColumn prefWidth="75.0" text="自定义项18" />
+            				  <TableColumn prefWidth="75.0" text="自定义项19" />
+            				  <TableColumn prefWidth="75.0" text="自定义项20" />
+                          </columns>
+                        </TableView>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </content>
+</ScrollPane>

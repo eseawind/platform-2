@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="public"/>
+	<classpathentry kind="src" path="private"/>
+	<classpathentry kind="src" path="client"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="src" path="conf"/>
+	<classpathentry kind="src" path="sys"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="lib/code/codemodel-2.6.jar" sourcepath="F:/support/codemodel/codemodel-2.6-sources.jar"/>
+	<classpathentry kind="lib" path="lib/excel/jxl-2.6.12.jar"/>
+	<classpathentry kind="lib" path="lib/persistence/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="lib/commons/lang/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/xml/jdom/jdom-2.0.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

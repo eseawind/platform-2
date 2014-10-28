@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<ToggleButton fx:id="togglebutton" alignment="CENTER_LEFT" mnemonicParsing="false" style="-fx-background-color: #E5F5FA;" text="%togglebutton" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.eniac.ui.ctrl.BasePaneNavChildMenuCtrl">
+   <font>
+      <Font name="System Bold" size="14.0" />
+   </font>
+</ToggleButton>

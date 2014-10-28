@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #91CBE9;" text="登录" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.eniac.ui.ctrl.BasePaneLoginCtrl">
+	<content>
+		<AnchorPane style="-fx-background-color: #91CBE9;">
+			<children>
+				<FlowPane id="loginbg" alignment="CENTER" columnHalignment="CENTER" orientation="VERTICAL" style="-fx-background-color: #91CBE9;" vgap="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+					<children>
+						<HBox alignment="CENTER" spacing="10.0">
+							<children>
+								<Label alignment="CENTER_RIGHT" prefWidth="80.0" text="%lbl_sys" />
+								<ComboBox fx:id="cbo_sys" onHidden="#onHidden" onHiding="#onHiding" onShowing="#onShowing" onShown="#onShown" prefWidth="150.0" />
+							</children>
+						</HBox>
+						<HBox spacing="10.0">
+							<children>
+								<Label alignment="CENTER_RIGHT" prefWidth="80.0" text="%lbl_username" />
+								<TextField fx:id="txt_account" prefWidth="150.0" />
+							</children>
+						</HBox>
+						<HBox spacing="10.0">
+							<children>
+								<Label alignment="CENTER_RIGHT" prefWidth="80.0" text="%lbl_password" />
+								<PasswordField fx:id="txt_password" prefWidth="150.0" />
+							</children>
+						</HBox>
+						<HBox alignment="CENTER_RIGHT">
+							<children>
+								<Button fx:id="btn_login" mnemonicParsing="false" onAction="#onLogin" text="%btn_login" />
+							</children>
+						</HBox>
+					</children>
+				</FlowPane>
+			</children>
+		</AnchorPane>
+	</content>
+</TitledPane>

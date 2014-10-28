@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.10552763819095477, 0.9246231155778895" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.eniac.ui.ctrl.BasePaneMainCtrl">
+  <items>
+    <AnchorPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="50.0">
+         <children>
+            <HBox fx:id="pane_top" alignment="CENTER_RIGHT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="50.0" style="-fx-background-color: #91CBE9;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <TextField fx:id="txt_searchkey" promptText="%searchkeyword" />
+               </children>
+               <padding>
+                  <Insets right="50.0" />
+               </padding>
+            </HBox>
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <TabPane fx:id="tabs" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #fff;" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <tabs>
+                <Tab closable="false" text="功能导航">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #fff;">
+                           <children>
+                              <BorderPane layoutX="199.0" layoutY="46.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <left>
+                                    <VBox fx:id="pane_navchildmenu" alignment="TOP_RIGHT" prefHeight="340.0" prefWidth="222.0" spacing="5.0" style="-fx-background-color: #E5F5FA;" BorderPane.alignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="10.0" top="10.0" />
+                                       </padding>
+                                    </VBox>
+                                 </left>
+                                 <center>
+                                    <ScrollPane fx:id="pane_content_scroll" fitToHeight="true" fitToWidth="true" prefViewportHeight="296.0" prefViewportWidth="155.0" BorderPane.alignment="CENTER">
+                                       <content>
+                                          <FlowPane fx:id="pane_navchildmenu_contents" columnHalignment="CENTER" hgap="20.0" layoutX="10.0" layoutY="10.0" onDragDetected="#ondragabc" orientation="VERTICAL" prefHeight="294.0" prefWidth="153.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <padding>
+                                                <Insets bottom="20.0" left="30.0" right="30.0" top="20.0" />
+                                             </padding>
+                                          </FlowPane>
+                                       </content>
+                                    </ScrollPane>
+                                 </center>
+                                 <right>
+                                    <VBox fx:id="pane_right" prefHeight="325.0" prefWidth="221.0" style="-fx-background-color: #EEEEF0;" BorderPane.alignment="CENTER" />
+                                 </right>
+                              </BorderPane>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab closable="false" text="消息中心">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #fff;" />
+                  </content>
+                </Tab>
+              </tabs>
+            </TabPane>
+         </children></AnchorPane>
+      <AnchorPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="30.0">
+         <children>
+            <HBox fx:id="pane_bottom" alignment="CENTER_RIGHT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="30.0" style="-fx-background-color: #91CBE9;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label fx:id="lbl_logindate" alignment="CENTER" maxWidth="100.0" prefHeight="15.0" prefWidth="100.0" text="2014-08-20">
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </Label>
+                  <Separator orientation="VERTICAL" prefHeight="10.0" prefWidth="6.0" />
+                  <Label fx:id="lbl_loginorg" alignment="CENTER" maxWidth="100.0" prefHeight="15.0" prefWidth="100.0" text="测试集团">
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="lbl_loginorg1" alignment="CENTER" maxWidth="100.0" prefHeight="20.0" prefWidth="100.0" text="测试组织">
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="lbl_loginaccount" alignment="CENTER" maxWidth="100.0" prefHeight="15.0" prefWidth="100.0" text="Dobbie">
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </Label>
+                  <Separator orientation="VERTICAL" prefHeight="10.0" prefWidth="6.0" />
+                  <ComboBox fx:id="cbo_loginaccountmenu" maxWidth="20.0" prefHeight="23.0" prefWidth="20.0">
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </ComboBox>
+                  <Separator orientation="VERTICAL" prefHeight="10.0" prefWidth="6.0">
+                     <HBox.margin>
+                        <Insets left="3.0" />
+                     </HBox.margin>
+                  </Separator>
+                  <ComboBox fx:id="cbo_loginhelper" maxWidth="20.0" prefHeight="23.0" prefWidth="20.0">
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </ComboBox>
+                  <Separator orientation="VERTICAL" prefHeight="10.0" prefWidth="6.0">
+                     <HBox.margin>
+                        <Insets left="3.0" />
+                     </HBox.margin>
+                  </Separator>
+                  <ComboBox fx:id="cbo_loginsysset" maxWidth="20.0" prefHeight="23.0" prefWidth="20.0">
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </ComboBox>
+               </children>
+               <padding>
+                  <Insets right="20.0" />
+               </padding>
+            </HBox>
+         </children>
+      </AnchorPane>
+  </items>
+</SplitPane>
